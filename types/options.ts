@@ -1,6 +1,4 @@
-
 type unit = "ms" | "s" | "min"
-
 
 interface QueryOptions {
     "shallow"?: boolean

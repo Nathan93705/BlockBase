@@ -172,7 +172,7 @@ class RealTimeDB {
     }
 }
 
-const rtdb = new RealTimeDB("test-server-net-default-rtdb", "WO7Eq64BYRCSPBHSrQCt8QJkoxHVt5xXzjVCOqdh");
+const rtdb = new RealTimeDB("test-server-net-default-rtdb", "*********************");
 
 async function test() {
     const collections = await rtdb.get("users") as CollectionMap
